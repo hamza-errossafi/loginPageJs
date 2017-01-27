@@ -75,7 +75,7 @@ app.use(express.static('public'));
 // serve the files out of ./public as our main files
 app.set('view engine', 'jade');
 
-app.get('/', ensureAuthenticated,function (req, res) {
+app.get('/', ensureAuthenticated, function (req, res) {
   res.render('home', {title: websiteTitle.getTitle()});
 });
 app.get('/alaska', function (req, res) {

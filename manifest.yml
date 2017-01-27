@@ -1,0 +1,8 @@
+applications: 
+- name: loginpagejs
+  memory: 256M
+  host: loginpagejs
+  domain: mybluemix.net
+  command: node app.js
+services:
+- Single Sign On-qs

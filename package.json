@@ -11,8 +11,7 @@
     "jade": "^1.10.0"
 	"passport": "0.2.x",
 	"cookie-parser": "1.4.0",
-	"express-session": "1.11.3",
-    //"passport-idaas-openidconnect": "*"
+	"express-session": "1.11.3"
   },
   "repository": {}
 }
